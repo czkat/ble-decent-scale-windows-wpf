@@ -6,4 +6,4 @@
 5. use the code from MainWindow.xaml.cs to pull python, change file location of python dll and py
 
 This code is used for establishing BluetoothLE connection from a bluetooth device Decent Scale to windows PC.
-why 
+
