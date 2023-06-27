@@ -1,9 +1,11 @@
-# runpythonfromwpf
-1. download python package pydecentscale
-2. create new wpf application with net6.0
-3. install pythonnet from nuget package manager, current latest ver 3.0.1
-4. change output type to console, from Project - wpfapp1 properties - Application - General - Output Type -> Console Application
-5. use the code from MainWindow.xaml.cs to pull python, change file location of python dll and py
-
+# BLE Decent Scale WPF
 This code is used for establishing BluetoothLE connection from a bluetooth device Decent Scale to windows PC.
 
+How to use the code:
+1. Create new WPF application with NET6.0
+2. Install pythonnet from nuget package manager, current latest ver 3.0.1
+3. Download python package pydecentscale (see below)
+4. Change output type to console, from Project - wpfapp1 properties - Application - General - Output Type -> Console Application
+5. To use the code from MainWindow.xaml.cs, change file location of python dll and folder location of pydecentscale.
+
+Big thanks to lucapinello for the python package pydecent scale here https://github.com/lucapinello/pydecentscale
