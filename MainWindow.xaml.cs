@@ -30,11 +30,11 @@ namespace WpfApp1
             myTb.Text = "hello world, ";           
             Console.WriteLine(myTb.Text);
             
-            string pythonDll = @"C:\Users\ChZh921\AppData\Local\Programs\Python\Python311\python311.dll";
+            string pythonDll = @"C:\Users\xxx\AppData\Local\Programs\Python\Python311\python311.dll";
             Environment.SetEnvironmentVariable("PYTHONNET_PYDLL", pythonDll);
-            Runtime.PythonDLL = @"C:\Users\ChZh921\AppData\Local\Programs\Python\Python311\python311.dll";
+            Runtime.PythonDLL = @"C:\Users\xxx\AppData\Local\Programs\Python\Python311\python311.dll";
             PythonEngine.Initialize();
-            string file = @"C:\Users\ChZh921\Desktop\wpfhelloworld\pydecentscale-main\examples\combine.py";
+            string file = @"C:\Users\xxx\Desktop\wpfhelloworld\pydecentscale-main\examples\combine.py";
 
             if (!PythonEngine.IsInitialized)// Since using asp.net, we may need to re-initialize
             {
